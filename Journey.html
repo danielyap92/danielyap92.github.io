@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <style>
+      .icon-list {
+        padding-left: 0;
+        list-style: none;
+      }
+      .icon-list li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: .25rem;
+      }
+      .icon-list li::before {
+        display: block;
+        flex-shrink: 0;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: .5rem;
+        content: "";
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23212529' viewBox='0 0 16 16'%3E%3Cpath d='M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708'/%3E%3C/svg%3E") no-repeat center center / 100% auto;
+      }
+    </style>
+
+    <title>Resume - Yap Weng Kiad</title>
+</head>
+<body>  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="./Portfolio.html">Portfolio Showcase</a>
+            <a class="nav-link" href="./Journey.html">Journey to Coding</a>
+            <a class="nav-link" href="./Education.html">Education Background</a>
+            <a class="nav-link" href="./F&Q.html">Frequently Asked Question</a>
+            <a class="nav-link" href="./About.html">About Me</a>
+            <a class="nav-link" href="./About.html#about-me">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+  <main class="container">
+
+    <div class="col-lg-10 mx-auto p-3 py-md-4">
+      <header class="d-flex align-items-center pb-3 mb-2 border-bottom">
+        <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25"/>
+          </svg>
+          <span class="fs-4 fw-bold">My Journey to Coding</span>
+        </a>
+      </header>
+    
+
+
+        <p class="fs-5">
+          I first learn the computer science since June 2022.<br/>
+          After research, I had chosen to start my programming journey with <b>Harvard CS50x Introduction to Computer Science</b> offered by edX. However I only managed to complete the first 4 chapter (Week 0 to Week 3), and wanted to give up, as the problem set is too difficult, without adequate exposure in programming, it was very difficult for a beginner like me to solve the problem set by writing the code myself. Just imagine you was taught to write “hello world”, and your problem set expect you to build a pyramid with different floor level based on your input number. I had stop learning a while since Dec 2022. <br/>
+          Later in Sept 2023, I resume back this program. I changed my mindset, I admit the fact that I was not able to solve this problem set on my own, I stay humble to look for solution. I study every step in the solution and try to understand the logic behind it. Things are not perfect, but it works. I managed to complete CS50x and create my own final project at Dec 2023.<br />
+          After completed CS50x, I continued my journey in web development by taking Udemy course <b>The Complete 2023 Web Development Bootcamp</b> by Dr. Angela Yu. <br />
+          This course is much more easier and beginner friendly compared to CS50x. Basically it covered all the basic in web development (both frontend and backend). I finished this course at Feb 2024, then I start to write own project and continue to explore other technique which are not covered in this course.<br />
+          <br />
+          Syllybus / module learnt are as follow:
+        </p>
+    
+    
+        <hr>
+    
+        <div class="row g-5">
+          <div class="col-md-6">
+            <h2>Harvard CS50x Introduction to Computer Science</h2>
+            <ul class="icon-list">
+              <li>Scratch</li>
+              <li>C</li>
+              <li>Arrays</li>
+              <li>Algorithms</li>
+              <li>Memory</li>
+              <li>Data Structures</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>HTML, CSS, JavaScript</li>
+              <li>Flask</li>
+              <li>Cybersecurity</li>
+            </ul>
+          </div>
+    
+          <div class="col-md-6">
+            <h2>The Complete 2023 Web Development Bootcamp</h2>
+            <ul class="icon-list">
+              <li>Front-end web development </li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Flexbox & Grid</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>Document Object Model</li>
+              <li>JQuery</li>
+              <li>Unix Command Line</li>
+              <li>Backend web development</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>EJS</li>
+              <li>Git, Githun and Version Control</li>
+              <li>Application Programming Interfaces (API) </li>
+              <li>Database</li>
+              <li>SQL</li>
+              <li>PostgresSQL</li>
+              <li>Authentication and Security</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+          <h2 style="text-align: center;">Certificate - Harvard CS50x Introduction to Computer Science</h2>
+          <img src="./Pictures/CS50x.png" alt="CS50x certificate" width="100%">
+          <a href="https://cs50.harvard.edu/certificates/9967d014-38c5-4562-845d-575d5487d9ae" target="_blank"><p style="text-align: center;">https://cs50.harvard.edu/certificates/9967d014-38c5-4562-845d-575d5487d9ae</p></a>
+        </div>
+
+  </main>
+    
+
+    <footer>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          id="footerSVG">
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 
+                  58-18 88-18s
+                  58 18 88 18 
+                  58-18 88-18 
+                  58 18 88 18
+                  v44h-352z" />
+            </defs>
+            <g class="waves">
+              <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="0"
+                fill="#0d6efd"
+                fill-opacity=".2" />
+              <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="3"
+                fill="#03ffff"
+                fill-opacity=".5" />
+              <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="6"
+                fill="#0d6efd"
+                fill-opacity=".9" />
+            </g>
+        </svg>
+
+      <div class="footer-content">
+        All right reserve ® <script>document.write(new Date().getFullYear())</script>
+      </div>
+
+    </footer>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
